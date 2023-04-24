@@ -10,6 +10,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Cursos</title>
   </head>
   <body>
@@ -37,7 +38,9 @@
               <a class="nav-link" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="cursos.html">Cursos</a>
+              <a class="nav-link active" aria-current="page" href="cursos.html"
+                >Cursos</a
+              >
             </li>
           </ul>
           <form role="search">
@@ -52,7 +55,9 @@
       </div>
     </nav>
 
-    <header class="d-flex align-items-center justify-content-between mx-5">
+    <header
+      class="d-flex align-items-center justify-content-between mx-5 text-light"
+    >
       <div>
         <h1>Listado de Cursos</h1>
         <p>Elija los cursos que le interese cursar</p>
@@ -60,14 +65,14 @@
     </header>
 
     <main class="container">
-      <section class="row gap-3">
-        <div class="card col-12 col-lg">
-          <img src="imgs/curso_git_github.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">
+      <section class="col gap-4">
+        <div class="d-flex flex-column flex-md-row bg-light p-3 rounded m-2">
+          <img src="imgs/curso_git_github.jpg" class="img-fluid" alt="..." />
+          <div class="d-flex flex-column p-2">
+            <h5 class="">
               GIT+GitHub: Todo un sistema de control de versiones de cero
             </h5>
-            <p class="card-text">
+            <p class="text-justify">
               Este curso te llevará de la mano partiendo desde cero hasta tener
               más de lo que necesitas para trabajar con Git, adicionalmente
               aprenderás a utilizar GitHub como un repositorio remoto,
@@ -75,75 +80,84 @@
               tokens, Pull Request y otros temas avanzados que serán de mucha
               utilidad en tu vida profesional.
             </p>
-          </div>
-          <div class="card-footer d-flex justify-content-end">
-            <a href="#" class="btn btn-primary">Adquirir este curso</a>
+            <div class="d-flex justify-content-between">
+              <p>U$D 10.00</p>
+              <a href="#" class="btn btn-primary">Adquirir este curso</a>
+            </div>
           </div>
         </div>
-        <div class="card col-12 col-lg">
-          <img src="imgs/curso_node.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Node: De cero a experto</h5>
-            <p class="card-text">
+
+        <div class="d-flex flex-column flex-md-row bg-light p-3 rounded m-2">
+          <img src="imgs/curso_node.jpg" class="img-fluid" alt="..." />
+          <div class="d-flex flex-column p-2">
+            <h5 class="">Node: De cero a experto</h5>
+            <p class="text-justify">
               Al terminar el curso no sólo tendrás la base, sino que podrás
               aplicar todos los conocimientos adquiridos para trabajar allá
               afuera en el campo laboral. Tengo como meta, que al terminar el
               curso tu puedas agregar a tu currículo y con fundamento que sabes
               Node.
             </p>
-          </div>
-          <div class="card-footer d-flex justify-content-end">
-            <a href="#" class="btn btn-primary">Adquirir este curso</a>
+            <div class="d-flex justify-content-between">
+              <p>U$D 10.00</p>
+              <a href="#" class="btn btn-primary">Adquirir este curso</a>
+            </div>
           </div>
         </div>
-        <div class="card col-12 col-lg">
-          <img src="imgs/flutter.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">
+
+        <div class="d-flex flex-column flex-md-row bg-light p-3 rounded m-2">
+          <img src="imgs/flutter.jpg" class="img-fluid" alt="..." />
+          <div class="d-flex flex-column p-2">
+            <h5 class="">
               Legacy - Flutter: Tu guía completa para IOS y Android
             </h5>
-            <p class="card-text">
+            <p class="text-justify">
               El curso fue creado para ayudarte a empezar en el desarrollo de
               aplicaciones móviles nativas usando una sola base de código con el
               SDK de Google Flutter
             </p>
-          </div>
-          <div class="card-footer d-flex justify-content-end">
-            <a href="#" class="btn btn-primary">Adquirir este curso</a>
+            <div class="d-flex justify-content-between">
+              <p>U$D 10.00</p>
+              <a href="#" class="btn btn-primary">Adquirir este curso</a>
+            </div>
           </div>
         </div>
-        <div class="card col-12 col-lg">
-          <img src="imgs/flutter_ui.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">
+
+        <div class="d-flex flex-column flex-md-row bg-light p-3 rounded m-2">
+          <img src="imgs/flutter_ui.jpg" class="img-fluid" alt="..." />
+          <div class="d-flex flex-column p-2">
+            <h5 class="">
               Flutter Intermedio: Diseños profesionales y animaciones
             </h5>
-            <p class="card-text">
+            <p class="text-justify">
               Diseño profesional y animaciones, este curso es de nivel
               intermedio y no es para personas que estén comenzando en Flutter.
               Este curso tiene por objetivo enseñarte a crear animaciones
               personalizadas y diseños atractivos para tus aplicaciones móviles
               y aplicaciones para tabletas.
             </p>
-          </div>
-          <div class="card-footer d-flex justify-content-end">
-            <a href="#" class="btn btn-primary">Adquirir este curso</a>
+            <div class="d-flex justify-content-between">
+              <p>U$D 10.00</p>
+              <a href="#" class="btn btn-primary">Adquirir este curso</a>
+            </div>
           </div>
         </div>
-        <div class="card col-12 col-lg">
-          <img src="imgs/flutter.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Dart: De cero hasta los detalles</h5>
-            <p class="card-text">
+
+        <div class="d-flex flex-column flex-md-row bg-light p-3 rounded m-2">
+          <img src="imgs/dart.jpg" class="img-fluid" alt="..." />
+          <div class="d-flex flex-column p-2">
+            <h5 class="">Dart: De cero hasta los detalles</h5>
+            <p class="text-justify">
               Te recomiendo que te inscribas si estás pensando en entrar en
               Flutter, Hummingbird o cualquier framework que use Dart como base.
               Es necesario comprender cómo escribir el código de programación
               antes de seguir reglas o patrones de desarrollo, y este curso
               tiene por objetivo darte esa base.
             </p>
-          </div>
-          <div class="card-footer d-flex justify-content-end">
-            <a href="#" class="btn btn-primary">Adquirir este curso</a>
+            <div class="d-flex justify-content-between">
+              <p>U$D 10.00</p>
+              <a href="#" class="btn btn-primary">Adquirir este curso</a>
+            </div>
           </div>
         </div>
       </section>
